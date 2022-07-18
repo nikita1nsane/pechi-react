@@ -1,0 +1,856 @@
+@import url("./fonts/style.css");
+.safari .ellipse1, .safari .ellipse2, .safari .ellipse3, .safari .ellipse4, .safari .ellipse5 {
+  display: none;
+}
+.safari .blocks .block .block_title {
+  text-align: center;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.customContainer {
+  width: 70%;
+  margin: auto;
+}
+
+.main__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+  background: linear-gradient(88.72deg, #FFB200 5.13%, #FF7D00 103.84%);
+  box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.25);
+  border-radius: 50px;
+}
+.main__button .title {
+  font-family: "Neutral Face";
+  font-style: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 120%;
+  background-color: inherit;
+}
+.main__button .subtitle {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 120%;
+  background-color: inherit;
+}
+
+.tableBrand {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 107.14%;
+  color: #FFFFFF;
+}
+
+.logoBrand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoBrand svg {
+  width: 30px;
+  height: 49px;
+}
+.logoBrand td {
+  padding: 5px 10px;
+}
+.logoBrand .firstTd {
+  border-right: 1px solid #FF7D00;
+}
+
+.wa {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.wa a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.wa a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.rcb {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+.rcb .phone {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.rcb .email {
+  cursor: pointer;
+}
+.rcb .now__online {
+  color: #8BD073;
+  margin-bottom: 18px;
+  text-align: end;
+}
+.rcb .now__online svg {
+  margin-left: 4px;
+}
+.rcb a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.rcb a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+#navbarScroll a.nav-link {
+  color: #FFFFFF;
+}
+
+.Navbar {
+  background: #2b2b2b;
+}
+.Navbar .wa {
+  background: #25D366;
+  border-radius: 50px;
+}
+.Navbar a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.Home {
+  position: relative;
+  height: 100vh;
+  margin-top: 160px;
+}
+.Home .marquiz__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+  background: linear-gradient(88.72deg, #FFB200 5.13%, #FF7D00 103.84%);
+  box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.25);
+  border-radius: 50px;
+}
+.Home .marquiz__button .title {
+  font-family: "Neutral Face";
+  font-style: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 120%;
+  background-color: inherit;
+}
+.Home .marquiz__button .subtitle {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 120%;
+  background-color: inherit;
+}
+.Home .marquiz__container {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.Home .wa_scroll {
+  visibility: hidden;
+}
+.Home .topContent .rightContent img {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+.Home .topContent a {
+  text-decoration: none;
+}
+.Home .ellipse1 {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  width: 327px;
+  height: 327px;
+  left: -20%;
+  top: -7%;
+  background: #FF7A00;
+  filter: blur(400px);
+}
+.Home .ellipse2 {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  width: 327px;
+  height: 327px;
+  left: 90%;
+  top: 60%;
+  background: #FF7A00;
+  filter: blur(400px);
+}
+.Home .ellipse3 {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  width: 327px;
+  height: 327px;
+  left: 72%;
+  top: 90%;
+  background: #FF7A00;
+  filter: blur(400px);
+}
+.Home .ellipse4 {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  width: 327px;
+  height: 327px;
+  left: 4%;
+  top: 90%;
+  background: #FF7A00;
+  filter: blur(400px);
+}
+.Home .ellipse5 {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  width: 327px;
+  height: 327px;
+  left: 30%;
+  top: 90%;
+  background: #FF7A00;
+  filter: blur(400px);
+}
+.Home h1 {
+  font-family: "Neutral Face";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  background: linear-gradient(88.72deg, #FFB200 5.13%, #FF7D00 103.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.15);
+  width: 84%;
+}
+.Home h2 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 50px;
+  line-height: 140%;
+  color: #FFFFFF;
+  width: 52%;
+}
+.Home h2 .spanColor {
+  background: linear-gradient(88.72deg, #FFB200 5.13%, #FF7D00 103.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.15);
+  font-weight: 700;
+}
+.Home .guarantee {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.Home .guarantee .count {
+  width: 156px;
+  height: 90px;
+  border-radius: 6px;
+  background: linear-gradient(#2B2B2B 0 0) padding-box, linear-gradient(88.72deg, #FFB200 5.13%, #FF7D00 103.84%) border-box;
+  border: 7px solid transparent;
+}
+.Home .guarantee .count .month {
+  z-index: 1;
+  background: initial;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 109%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.Home .guarantee .count .garant {
+  z-index: 1;
+  background: initial;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.Home .guarantee .count .text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("./images/experimental/Rectangle 166.svg") no-repeat top;
+}
+.Home .guarantee .shema {
+  width: 156px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 6px;
+  background: linear-gradient(#2B2B2B 0 0) padding-box, linear-gradient(88.72deg, #FFB200 5.13%, #FF7D00 103.84%) border-box;
+  border: 6px solid transparent;
+}
+.Home .guarantee .shema span {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 128%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.Home .guarantee .free {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 144%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  left: -5%;
+}
+.Home .guarantee .free span {
+  width: 181px;
+}
+.Home .guarantee img {
+  position: relative;
+  left: -5%;
+}
+.Home svg {
+  position: absolute;
+  left: -2%;
+  top: 60%;
+}
+.Home .confirmed {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 140px;
+}
+.Home .eight {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 70px;
+}
+.Home .eight .spanColor {
+  background: linear-gradient(88.72deg, #FFB200 5.13%, #FF7D00 103.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.15);
+  font-weight: 700;
+}
+.Home .blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  gap: 28px;
+}
+.Home .blocks .block {
+  background: rgba(255, 255, 255, 0.01);
+  background: linear-gradient(#2B2B2B 0 0) padding-box, linear-gradient(88.72deg, #FFB200 5.13%, #FF7D00 103.84%) border-box;
+  border: 4px solid transparent;
+  box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  padding: 28px 0;
+  width: 442px;
+  height: 392px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Home .blocks .block .block_title {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  background: linear-gradient(88.72deg, #FFB200 5.13%, #FF7D00 103.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+.Home .blocks .block .block_subtitle {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 144%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.Home .blocks .block .block_img {
+  display: flex;
+}
+.Home a {
+  text-decoration: none;
+}
+.Home .podarki {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.Home .footer {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+.Home .footer .spanBold {
+  font-weight: 700;
+}
+.Home .footer p {
+  margin-bottom: 5px;
+}
+.Home .footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.Home .footer a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+.Home .footer .phone {
+  cursor: pointer;
+}
+
+@media (max-width: 1439px) {
+  .Home svg {
+    display: none;
+  }
+}
+@media (max-width: 1299px) {
+  .Home h1, .Home h2 {
+    width: 100%;
+  }
+  .Home .topContent .rightContent img {
+    zoom: 0.6;
+    top: 37%;
+    left: 60%;
+  }
+}
+@media (max-width: 1440px) {
+  body {
+    zoom: 0.75;
+  }
+}
+@media (max-width: 1206px) {
+  .Home {
+    margin-top: 180px;
+  }
+}
+@media (max-width: 991px) {
+  .Home {
+    margin-top: 100px;
+  }
+  .Home .footer {
+    padding-bottom: 65px;
+  }
+  .Home .marquiz__container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Home .topContent .rightContent img {
+    position: relative;
+    left: 0%;
+    margin: auto;
+  }
+  .Home .topContent .confirmed {
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Home .wa_scroll {
+    visibility: visible;
+    position: fixed;
+    color: #ffffff;
+    background-color: #19b04b;
+    border-radius: 50px;
+    padding: 15px 20px;
+    line-height: 1.5;
+    bottom: -100px;
+    width: inherit;
+    font-size: 16px;
+    z-index: 1000;
+    font-weight: 700;
+    text-align: center;
+    transition: bottom 0.3s;
+  }
+  .Home .wa_scroll a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 876px) {
+  .Home .ellipse3 {
+    left: 22%;
+    top: 103%;
+  }
+  .Home .ellipse4 {
+    left: 22%;
+    top: 142%;
+  }
+  .Home .ellipse5 {
+    left: 22%;
+    top: 180%;
+  }
+  .Home h1 {
+    font-size: 34px;
+  }
+  .Home h2 {
+    font-size: 22px;
+  }
+  .Home .guarantee {
+    flex-wrap: wrap;
+  }
+  .Home .guarantee .free span {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .Home .guarantee img {
+    left: -9%;
+  }
+  .Home .main__button {
+    width: 100%;
+  }
+  .Home .main__button .title {
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .Home .main__button .subtitle {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .Home .confirmed {
+    width: 100%;
+  }
+  .Home .blocks {
+    flex-direction: column;
+    gap: 40px;
+  }
+  body {
+    background-image: none;
+  }
+}
+@media (max-width: 768px) {
+  .Home.container, .Navbar .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .Home.container {
+    margin-top: 120px;
+  }
+  .Home .wa_scroll {
+    left: 15%;
+    right: 15%;
+  }
+  .Home .ellipse1 {
+    left: 0%;
+  }
+  .Home .ellipse2 {
+    left: 50%;
+  }
+  .Home .ellipse3 {
+    left: 35%;
+    top: 175%;
+  }
+  .Home .ellipse4 {
+    left: 35%;
+    top: 230%;
+  }
+  .Home .ellipse5 {
+    left: 35%;
+    top: 280%;
+  }
+  .Home h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .Home h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .Home .guarantee {
+    justify-content: center;
+    zoom: 0.7;
+  }
+  .Home .guarantee img {
+    left: -4%;
+  }
+  .Home .guarantee .count, .Home .guarantee .shema {
+    border-width: 6px;
+  }
+  .Home .guarantee .free {
+    font-size: 28px;
+  }
+  .Home .topContent .rightContent img {
+    zoom: 1;
+    margin-top: -100px;
+    width: auto;
+    height: auto;
+  }
+}
+@media (max-width: 610px) {
+  .guarantee img {
+    display: none;
+  }
+  .Home .guarantee .free {
+    left: 0%;
+  }
+}
+@media (max-width: 575px) {
+  .Home .wa_scroll {
+    width: 95%;
+    left: 0%;
+    right: 0%;
+  }
+  .Home .ellipse2 {
+    left: 25%;
+  }
+}
+@media (max-width: 474px) {
+  .customContainer {
+    width: 100%;
+    padding: 0 5px;
+  }
+  .logoBrand {
+    zoom: 0.7;
+  }
+  .Home {
+    margin-top: 80px;
+  }
+  .Home .marquiz__container {
+    width: 100%;
+  }
+  .Home .marquiz__button {
+    padding: 25px;
+  }
+  .Home .marquiz__button .title {
+    font-size: 16px;
+  }
+  .Home .marquiz__button .subtitle {
+    font-size: 15px;
+  }
+  .Home .main__button {
+    padding: 25px;
+  }
+  .Home .main__button .title {
+    font-size: 16px;
+  }
+  .Home .main__button .subtitle {
+    font-size: 15px;
+  }
+  .Home .eight {
+    font-size: 24px;
+  }
+  .Home .blocks .block {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .Home .main__button .title, .Home .marquiz__button .title {
+    font-size: 22px;
+  }
+  .Home .main__button .subtitle, .Home .marquiz__button .subtitle {
+    font-size: 20px;
+  }
+  .Navbar .secondTd {
+    display: none;
+  }
+  .Navbar .firstTd {
+    border-right-width: 0px;
+  }
+  .safari .Home .guarantee .count span, .safari .Home .guarantee .shema span {
+    font-size: 16px;
+  }
+  .safari .Home .guarantee .free {
+    font-size: 22px;
+  }
+  .safari .Home .main__button .title, .safari .Home .marquiz__button .title {
+    font-size: 16px;
+  }
+  .safari .Home .main__button .subtitle, .safari .Home .marquiz__button .subtitle {
+    font-size: 15px;
+  }
+}
+@media (max-width: 395px) {
+  .Home .main__button .title, .Home .marquiz__button .title {
+    font-size: 20px;
+  }
+  .Home .main__button .subtitle, .Home .marquiz__button .subtitle {
+    font-size: 18px;
+  }
+}
+@media (max-width: 365px) {
+  .Home .main__button .title, .Home .marquiz__button .title {
+    font-size: 18px;
+  }
+  .Home .main__button .subtitle, .Home .marquiz__button .subtitle {
+    font-size: 16px;
+  }
+}
+@media (max-width: 335px) {
+  .Home .main__button .title, .Home .marquiz__button .title {
+    font-size: 16px;
+  }
+  .Home .main__button .subtitle, .Home .marquiz__button .subtitle {
+    font-size: 14px;
+  }
+}
+@media (max-width: 295px) {
+  .Home .main__button .title, .Home .marquiz__button .title {
+    font-size: 13px;
+  }
+  .Home .main__button .subtitle, .Home .marquiz__button .subtitle {
+    font-size: 11px;
+  }
+}
+@media (max-width: 390px) {
+  .Home .ellipse1, .Home .ellipse2, .Home .ellipse3, .Home .ellipse4, .Home .ellipse5 {
+    left: 7%;
+  }
+}
+@media (max-width: 361px) {
+  .logoBrand {
+    zoom: 0.55;
+  }
+  .guarantee .count, .guarantee .shema {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 320px) {
+  .Home .ellipse1, .Home .ellipse2, .Home .ellipse3, .Home .ellipse4, .Home .ellipse5 {
+    left: 0%;
+  }
+}/*# sourceMappingURL=index.css.map */

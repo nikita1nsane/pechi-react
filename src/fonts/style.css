@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-display: swap;
+    src: url('proxima_nova_bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('proxima_nova_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+        url('proxima_nova_bold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('proxima_nova_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+        url('proxima_nova_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('proxima_nova_bold.svg#proxima_nova_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-display: swap;
+    src: url('proxima_nova_regular.eot'); /* IE 9 Compatibility Mode */
+    src: url('proxima_nova_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+        url('proxima_nova_regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('proxima_nova_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+        url('proxima_nova_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('proxima_nova_regular.svg#proxima_nova_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+    font-family: 'Neutral Face';
+    src: url('NeutralFaceRegular.eot');
+    src: url('NeutralFaceRegular.eot?#iefix') format('embedded-opentype'),
+        url('NeutralFaceRegular.woff2') format('woff2'),
+        url('NeutralFaceRegular.woff') format('woff'),
+        url('NeutralFaceRegular.ttf') format('truetype'),
+        url('NeutralFaceRegular.svg#NeutralFaceRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neutral Face';
+    src: url('NeutralFaceBold.eot');
+    src: url('NeutralFaceBold.eot?#iefix') format('embedded-opentype'),
+        url('NeutralFaceBold.woff2') format('woff2'),
+        url('NeutralFaceBold.woff') format('woff'),
+        url('NeutralFaceBold.ttf') format('truetype'),
+        url('NeutralFaceBold.svg#NeutralFaceBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
